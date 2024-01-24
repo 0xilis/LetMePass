@@ -1,0 +1,9 @@
+Package: com.0xilis.letmepass
+Name: LetMePass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Bypasses YouTube's version alert
+Maintainer: Snoolie K
+Author: Snoolie K
+Section: Tweaks
+Depends: firmware (>= 11.0)
