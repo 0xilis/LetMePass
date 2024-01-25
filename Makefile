@@ -1,5 +1,5 @@
-ARCHS = arm64 arm64e
-TARGET = iphone:clang:14.8.1:11.0
+ARCHS = armv7 arm64 arm64e
+TARGET = iphone:clang:14.8.1:10.0
 PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 # PREFIX = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/
 SYSROOT = $(THEOS)/sdks/iPhoneOS14.5.sdk

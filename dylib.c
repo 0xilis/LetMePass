@@ -1,7 +1,12 @@
 #include <objc/runtime.h>
 
 __attribute((naked, used)) static void hook_YTUpgradeWorker_updateCheck(void) {
+ /* inlining asm to prevent nasty compilers adding useless nops... */
+ #ifdef __arm__
+ asm ("bx lr;");
+ #else
  asm ("ret;");
+ #endif
 }
 
 __attribute__((constructor)) static void init() {
