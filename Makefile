@@ -10,7 +10,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = LetMePass
 
 LetMePass_FILES = dylib.c
-LetMePass_CFLAGS = -nostdlib
+LetMePass_CFLAGS = -nostdlib # Not used
 LetMePass_LDFLAGS = -lobjc
 LetMePass_USE_SUBSTRATE = 0
 LetMePass_LOGOS_DEFAULT_GENERATOR = internal
